@@ -1,0 +1,14 @@
+{
+    "identity": {
+        "male": {
+            "titles": ["Mr."],
+            "names": ["Jon", "Jack", "Robert", "Jason", "Karl"],
+            "lastNames": ["Doe", "Jhonson", "Smith", "Williams", "Brown"]
+        },
+        "female": {
+            "titles": ["Mrs.", "Miss", "Ms."],
+            "names": ["Jane", "Jackie", "Anna", "Helen", "Megan"],
+            "lastNames": ["Miller", "Taylor", "Wilson", "García", "Jones"]
+        }
+    }
+}
