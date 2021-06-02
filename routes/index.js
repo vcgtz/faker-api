@@ -3,7 +3,10 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.json({
+    app: 'Fake Generator API',
+    currentDate: new Date()
+  });
 });
 
 module.exports = router;
